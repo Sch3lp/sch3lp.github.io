@@ -103,7 +103,7 @@ Something important he added though, is that you can also improve Mental Models 
 ### Dominika Rogala - Things you wish you shared with your team before they agreed on that deadline <a name="#Dominika_Rogala">&nbsp;</a>
 Deadlines are known to get missed. But is there a way to prevent this from happening?
 
-Dominika asked us these questions, and I'd like for you to give answers to these as well.
+[Dominika](http://twitter.com/rogaladominika) asked us these questions, and I'd like for you to give answers to these as well.
 
 How many days are there in a year? ... How many in a week?
 
@@ -130,6 +130,85 @@ So next time you need to estimate something, make sure that the ones estimating 
 Make sure **they** know, what **you** know.
 
 ### Adrian Howard - How to talk to earthlings <a name="#Adrian_Howard">&nbsp;</a>
+[Adrian](http://twitter.com/adrianh)'s talk was really nicely structured, because I noted down SO much fairly easily.
+He talked about having more effective conversations with your team(s), but I think in a very meta sort of way, it was also about having more effective conversations with your audience. :)
+
+Adrian kicked things off with this quote by Mary Parker Follett - _Management is the art of getting things done through people_, as he added _The managers job is to build the organization, not the product_.
+
+In order to do that, you'll need to understand your teams problems, understand their goals.
+
+And here he was, using **[principles](/2017/06/09/the-lead-developer-conference/#Patrick_Kua)** he learned from UX research, and applied them to talking with people.
+
+#### Biggest mistakes you can to foul up effective conversations
+
+##### 1. Not listening
+Fix it by shutting up (stop talking), and staying quiet.
+
+Gaps in a conversation seem longer than you think, and people will naturally fill these gaps.
+
+When someone stops talking, just wait four or five seconds. You might be surprised how soon people talk again and what you can discover.
+
+##### 2. Not hearing what was actually said
+For example if someone mentioned that _We're having problems with QA and TDD_, you could ask: _Can you tell me more about the TDD problems with the QA group?_. Instead of either ignoring, or starting to talk about something else entirely.
+
+This shows that you're actually listening and will allow you to dive deeper into the problem they described (using their words).
+
+It also allows to redirect when veering off-topic.
+
+_Every clarification breeds new questions_
+
+##### 3. Asking about the future
+Bad: _What would you do if this thing happened?_.
+
+Because the answer you hear is likely to not be good, because people are generally bad at imagining.
+
+Good: Ask for stories
+
+_Can you tell me about a really bad day for you?_
+
+_What happens on your worst day?_
+
+_What was the best/worst day last week_
+
+##### 4. Leading questions
+Ask open questions instead.
+
+Don't: _You think QA needs more training in TDD?_
+
+Do: _Can you tell me more about the problems in QA?_
+
+##### 5. Being disrespectful
+Being disrespectful can mean a bunch of things, aside from stating the obvious, there's one that Adrian highlighted because it's not so obvious.
+
+In _one on one_'s, people will know when you are **bored**. Bored of hearing the same problem 4 times in a row. This will show in your tone of voice, and your body language.
+
+So don't be scary. _Don't be an arse_. Pay extra attention to good manners, e.g. in introducing yourself properly if it's the first time you see this person in a _one on one_.
+
+Pay attention to your own body language. Or rather, _remember_ your body language. The nuance is that _remembering_ emphasizes recognizing the trigger, whereas _paying attention to_ implies _something you just need to do_.
+
+##### 6. Trusting your memory
+In that, trusting your memory is usually not ideal.
+
+Write up your notes during the conversation/meeting.
+
+Write down the things you want to bring up later. Use it as a driver.
+
+Write it down in a way that you'll be able to understand at a later point in time. This is something I think I'm already doing. I write stuff as if someone else is going to have to make sense of it afterwards. And that might include the _daft me_ in the future. :)
+
+Another great tip he gave was to try and separate insights and observations: Insights are conclusions you've drawn from what people have said, whereas Observations are merely things based on assumption. So really, assumptions you might want to validate in later conversations.
+
+#### Summed up
+**Stalk** before you **talk** before you **sell** before you **build**
+
+Be _Alfred_, help your heroes be better.
+
+![](alfred_helps_batman.jpg)
+
+#### Books
+[Practical Empathy - Indi Young](https://www.amazon.co.uk/Practical-Empathy-Collaboration-Creativity-Your/dp/1933820489/)([eBook](http://rosenfeldmedia.com/books/practical-empathy/))
+
+[Interviewing Users - Steve Portigal](https://www.amazon.co.uk/Interviewing-Users-Uncover-Compelling-Insights-ebook/dp/B00CEKR872/)
+
 
 
 ### Katherine Wu - Ask vs. Guess Cultures <a name="#Katherine_Wu">&nbsp;</a>
