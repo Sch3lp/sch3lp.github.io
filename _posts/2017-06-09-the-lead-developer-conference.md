@@ -14,7 +14,7 @@ Thanks also go out to our employer, [Cegeka](http://www.cegeka.com), who paid fo
 
 Thanks to the organizers, [White October Events](http://www.whiteoctoberevents.co.uk), who once again did an _amazing_ job at making everyone feel right at home and safe.
 
-And thanks to [Meri Williams](http://twitter.com/@Geek_Manager), with her witty announcements, for being the perfect host and an inspiring example to us all.
+And thanks to [Meri Williams](https://twitter.com/@Geek_Manager), with her witty announcements, for being the perfect host and an inspiring example to us all.
 
 ## Scribblings of a madman
 Once again I took some [notes](http://github.com/sch3lp/LeadDevNotes), where I based this blogpost on.
@@ -46,7 +46,7 @@ Once again I took some [notes](http://github.com/sch3lp/LeadDevNotes), where I b
 
 ## Day 1 - Tech Leads, Feedback, and what not
 ### Patrick Kua - The constant life of a tech lead <a name="#Patrick_Kua">&nbsp;</a>
-Last year I learned that [Patrick](http://twitter.com/patkua) is great at doing keynotes, so seeing him again as first speaker on day 1 was no surprise. Especially since it was on the schedule ;)
+Last year I learned that [Patrick](https://twitter.com/patkua) is great at doing keynotes, so seeing him again as first speaker on day 1 was no surprise. Especially since it was on the schedule ;)
 
 Pat focused his talk around three main parts of a Lead Developer: Tech, People and System.
 
@@ -103,7 +103,7 @@ Something important he added though, is that you can also improve Mental Models 
 ### Dominika Rogala - Things you wish you shared with your team before they agreed on that deadline <a name="#Dominika_Rogala">&nbsp;</a>
 Deadlines are known to get missed. But is there a way to prevent this from happening?
 
-[Dominika](http://twitter.com/rogaladominika) asked us these questions, and I'd like for you to give answers to these as well.
+[Dominika](https://twitter.com/rogaladominika) asked us these questions, and I'd like for you to give answers to these as well.
 
 How many days are there in a year? ... How many in a week?
 
@@ -130,7 +130,7 @@ So next time you need to estimate something, make sure that the ones estimating 
 Make sure **they** know, what **you** know.
 
 ### Adrian Howard - How to talk to earthlings <a name="#Adrian_Howard">&nbsp;</a>
-[Adrian](http://twitter.com/adrianh)'s talk was really nicely structured, because I noted down SO much fairly easily.
+[Adrian](https://twitter.com/adrianh)'s talk was really nicely structured, because I noted down SO much fairly easily.
 He talked about having more effective conversations with your team(s), but I think in a very meta sort of way, it was also about having more effective conversations with your audience. :)
 
 Adrian kicked things off with this quote by Mary Parker Follett - _Management is the art of getting things done through people_, as he added _The managers job is to build the organization, not the product_.
@@ -209,9 +209,8 @@ Be _Alfred_, help your heroes be better.
 
 [Interviewing Users - Steve Portigal](https://www.amazon.co.uk/Interviewing-Users-Uncover-Compelling-Insights-ebook/dp/B00CEKR872/)
 
-
-
 ### Katherine Wu - Ask vs. Guess Cultures <a name="#Katherine_Wu">&nbsp;</a>
+[Katherine Wu](https://twitter.com/kwugirl)
 
 
 ### Maria Gutierrez - Time to focus on your goals <a name="#Maria_Gutierrez">&nbsp;</a>
