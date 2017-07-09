@@ -139,7 +139,7 @@ In order to do that, you'll need to understand your teams problems, understand t
 
 And here he was, using **[principles](/2017/06/09/the-lead-developer-conference/#Patrick_Kua)** he learned from UX research, and applied them to talking with people.
 
-#### Biggest mistakes you can to foul up effective conversations
+#### Biggest mistakes you can make to foul up effective conversations
 
 ##### 1. Not listening
 Fix it by shutting up (stop talking), and staying quiet.
