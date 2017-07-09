@@ -306,7 +306,62 @@ Just watch his presentation when it's online.
 
 
 ### Birgitta Böckeler - We're Agile, we don't do doumentation <a name="#Birgitta_Boeckeler">&nbsp;</a>
+This was a damn good talk by [Birgitta](https://twitter.com/birgitta410), shining some light on the often misunderstood _documentation_.
 
+Before enlightening us with reasons of why documentation is good, she also told us that documentation for the sake of process is just bad. This is also the stereotypical idea people have when they think about documentation.
+
+So how can documentation be valuable though?
+
+#### 1. Create common understanding
+When you're working in a team, or really just collaborating with other people, put up each individuals' understandings on a whiteboard. You can do that however you like, for example all together, or kick-off in groups and diverge, then converge and redraw every groups findings in one place.
+
+Make a _wall_ of common understanding.
+
+At the Ventouris team where I work, we have this wall that we show whenever prospects are shown around the office. I've found that these visits are a means of keeping this common understanding wall up to date.
+
+#### 2. Surface and understand complexity
+Make _infographics_, which might have evolved from whiteboard sessions.
+
+These should explain complex things that you don't touch frequently, but need to explain in detail every time you do touch it.
+
+Creating these infographics helps you check if it's accidental complexity or actual.
+
+Make _Widget Kits_. Kits that are helpful in rebuilding **tangible** diagrams. Picture an envelope with cue cards containing keywords, domain concepts, ... That you open up and re-order or remake the puzzle every time you need it explained. Excellent for kinesthetic learners.
+
+#### 3. Create empathy
+Empathy between technical decision makers and developers.
+
+Developing software without documentation guidance can be anxiety inducing. Usually this translates to having to ask yourself the question _Why do I need to adhere to this framework in our code?_. Is it because of something that's _historically grown_ this way? What are some of the constraints that the developers or architects of 10 years ago were dealing with, when they were making decisions for the project you're working on right now?
+
+There should also be empathy between product people and developers. And once again, documentation can help. This is why we share our C4 diagrams in our offers to RFP's.
+
+#### 4. Documenting reasons why
+Describe the problem, not just the solution. Add context, so people can understand better what you were dealing with at the time.
+
+Read this 2011 article by [Michael Nygard on Documenting Architecture Decisions](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
+
+Nat Pryce created [tooling](https://github.com/npryce/adr-tools) for this concept as well, which is worth checking out.
+
+To help incentivize my team to write adr-like documentation we introduced a _Captain's Log_ markdown file in the root of the project.
+
+Think _Stardate ... - the Klingons are being angry again._ or _Yarrrr, today we looted rum..._.
+
+I think it's because of this _fun factor_ that my team is more inclined to write down the decision they made.
+
+#### 5. Creative problem solving
+Documentation doesn't exist all of a sudden. It's iterative, brainstorming work. So temporary drawings are fine.
+
+Do not worry about these staying up to date. Accept that they will become obsolete at some point. But try to make explicit that these are temporary. It's important to not mix these up with actual documentation.
+
+Book recommendation: [The back of the napkin by Dan Roam](http://www.danroam.com/the-back-of-the-napkin/).
+
+#### A note on Guidance
+* Guide your team in writing documentation as little as possible. Don't take away their _voice_.
+* Make it visible. You know, like the _Wall of Understanding_
+* Include documentation in rituals. e.g. Grooming the diagrams in a codereview
+* Create ownership through collaboration.
+
+We try to do this last one by organizing _Architecture sessions_, where we review parts of our design, or higher level architecture by collaborating on diagrams in order to increase our shared understanding of the project we're working on.
 
 ### Mathias Meyer - Building and Scaling a distributed and inclusive team <a name="#Mathias_Meyer">&nbsp;</a>
 
