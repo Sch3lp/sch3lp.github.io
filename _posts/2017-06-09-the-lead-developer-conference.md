@@ -210,8 +210,47 @@ Be _Alfred_, help your heroes be better.
 [Interviewing Users - Steve Portigal](https://www.amazon.co.uk/Interviewing-Users-Uncover-Compelling-Insights-ebook/dp/B00CEKR872/)
 
 ### Katherine Wu - Ask vs. Guess Cultures <a name="#Katherine_Wu">&nbsp;</a>
-[Katherine Wu](https://twitter.com/kwugirl)
+[Katherine Wu](https://twitter.com/kwugirl) taught me something new. Another thing-a-ma-jig to put in my _Perceptions Toolbelt_.
 
+#### Ask Culture
+People that are more ask culture minded will generally ask you for the thing they want or expect.
+They'll be _direct_.
+
+    Will you come to my birthday party in two weeks?
+    No, I can't. I already made plans to hang out with some other friends.
+
+_Ask Culture_ can be good, because it prioritizes efficiency, there's no ambiguity and it'll get you what you want in the short term. 
+
+However, it's more open to conflict and can make people feel uncomfortable.
+
+#### Guess culture
+Guess culture could also be described as _offer culture_, because you will feel it out, be vaguely suggestive about the thing you want, and then hope others will pick up on this and offer the thing you want.
+
+    I haven't got many confirmed RSVP's yet to my birthday party that's coming up in two weeks. I could use some real friends there to help celebrate. :)
+
+_Guess Culture_ prioritizes **not** hurting feelings, you'll come across as being more polite and it's style is generally more expressive.
+
+However, it's highly dependent on a a tight net of shared expectations, can be hard if you're bad at reading social cues and it can make you feel like no one is listening to what you're saying.
+
+Understanding the difference is useful to know how to get your message across to _someone from the other side_. Different styles can be more appropriate for different situations.
+
+#### Strategies in dealing with opposite cultures
+##### Ask culture person dealing with guess culture person
+Make a close friend out of someone you know that is Guess Culture, it'll help you acquire a different perspective and become more empathetic when communicating with other Guess Culture people.
+
+Listen more closely to what Guess Culture people are saying, and maybe more importantly, it's also about what people are **not** saying.
+
+Just apologize when you realize you made an ambiguous interpretation.
+
+Ask _What questions do you have for me?_ instead of _Do you have any questions?_ in an effort to be less aggressive.
+
+##### Guess culture person dealing with ask culture person
+Remember that people might be unaware of _the rules_ [of guess culture].
+
+Resist the urge to _soften_ a _No_ in an effor to be more direct.
+
+#### Takeaways
+Katherine brought an interesting and new perspective of (mis)communication between people. And I was happy to learn that it's a spectrum rather than a polarity. Where do you find yourself? Me, I'm more of an _Ask Culture_ type of communicator.
 
 ### Maria Gutierrez - Time to focus on your goals <a name="#Maria_Gutierrez">&nbsp;</a>
 
