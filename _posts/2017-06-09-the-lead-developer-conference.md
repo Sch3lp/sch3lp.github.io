@@ -295,8 +295,11 @@ With the other questions leading up to the last powerful question. What **can** 
 
 She also gave an excellent tip on receiving constructive feedback, where she told us to act as if the feedback is coming from someone you adore or idolize. We're generally easier on taking advice from someone we look up to. But why would feedback from someone else be less helpful?
 
-
 ### Nickolas Means - The original Skunk Works <a name="#Nickolas_Means">&nbsp;</a>
+
+So, I started writing stuff down and then promptly stopped when it sank in I was watching [Nickolas Means](https://twitter.com/nmeans).
+
+Just watch his presentation when it's online.
 
 ## Day 2 - Failing, Diversity, and what not
 ### Kevin Goldsmith - Fail Safe, Fail Smart, Succeed <a name="#Kevin_Goldsmith">&nbsp;</a>
