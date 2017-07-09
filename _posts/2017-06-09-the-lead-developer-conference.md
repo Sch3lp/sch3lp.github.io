@@ -268,6 +268,32 @@ Katherine brought an interesting and new perspective of (mis)communication betwe
 
 
 ### Erika Carlson - Better Fearless Feedback for Software Teams <a name="#Erika_Carlson">&nbsp;</a>
+[Erika Carlson](https://twitter.com/eacarlson) came on to talk about feedback, like Dan North did last year.
+
+#### Types of feedback
+First she talked about the different types of feedback: _affirmative_ and _constructive_ feedback, which is either saying positive things, or saying or showing things on how one can improve.
+
+But then there's also _passive feedback_ where one devalues or condones behaviour through **inaction**. To me this is less explicit though, and might align more with Guess Culture people.
+
+She took some time to tell us her opinion on the _Feedback Sandwich_, which took quite some courage after [Dan North's talk last year](/2016/06/29/the-lead-developer-conference-day-1/#Dan_North) on this exact topic. :) So, mad respect to her. 
+
+She thinks the Feedback Sandwich takes away too much of the actual feedback you want to give the other person. And I can see that. Some people will just cling on to the positive parts of the feedback your giving them and thereby not actually hearing the constructive feedback you tried giving them. Maybe this is another Ask vs. Guess Culture thing.
+
+I imagine the Feedback Sandwich working better for people that are more Guess Culture.
+
+#### Getting over fear of feedback
+Giving and receiving feedback requires openness, maturity, self-awareness, courage and vulnerability. Think about whether these requirements are there in your current team/company.
+
+If these are there, and you're still experiencing fear when you're giving or receiving feedback, ask yourself the following questions.
+
+* What am I afraid of?
+* What's the underlying fear?
+* What steps could I take to overcome this fear?
+* What could I gain by moving beyond this fear?
+
+With the other questions leading up to the last powerful question. What **can** you gain?
+
+She also gave an excellent tip on receiving constructive feedback, where she told us to act as if the feedback is coming from someone you adore or idolize. We're generally easier on taking advice from someone we look up to. But why would feedback from someone else be less helpful?
 
 
 ### Nickolas Means - The original Skunk Works <a name="#Nickolas_Means">&nbsp;</a>
