@@ -293,7 +293,7 @@ How does one apply influence in his role as a leader? Anjuan takes inspiration i
     
 - _Customer collaboration over contract negotiation._ Customers trust colleagues, not contracts, so treat your customers as colleagues. Nobody reads contracts, don't expect people to read them. Communicate with people directly. But not all your customers are your friends. Cut toxic customers.
 
-- _Responding to change, instead of following a plan._ We can't predict the future, so don't make plans too far ahead. "Don't fear surprises, fear inflexibility." Iterate and improve. By doing this he improved his scheduling influence, because he started to be known as someone that deliveres sooner rather than later.
+- _Responding to change, instead of following a plan._ We can't predict the future, so don't make plans too far ahead. "Don't fear surprises, fear inflexibility." Iterate and improve. By doing this he improved his scheduling influence, because he started to be known as someone that delivers sooner rather than later.
 
 #### Conclusion
 By optimizing your influence with people, your build, schedule and customers, you will maximize your effectiveness. When in doubt, look to the agile manifesto for guidance.
