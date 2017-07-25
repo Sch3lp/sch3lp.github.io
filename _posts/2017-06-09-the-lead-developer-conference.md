@@ -289,7 +289,7 @@ How does one apply influence in his role as a leader? Anjuan takes inspiration i
 
 - _Individuals and interactions over processes and tools._ People build software, processes and tools don't. How do you get and keep a team motivated? Anjuan has found that "Preserve dignity at all costs" builds team influence. You don't have to all agree, but you have to respect everyone in your team.
 
-- _Working software over comprehensive documentation._ "Working always ships faster than perfect" means that you have to start with something, and improve it along the way. Focussing on getting things working, instead of on perfection, gains "build influence". People will start to see you as someone that gets things done build. This applies to anything in your role as a leader.
+- _Working software over comprehensive documentation._ "Working always ships faster than perfect" means that you have to start with something, and improve it along the way. Focussing on getting things working, instead of on perfection, gains "build influence". People will start to see you as someone that gets things done. This applies to anything in your role as a leader.
     
 - _Customer collaboration over contract negotiation._ Customers trust colleagues, not contracts, so treat your customers as colleagues. Nobody reads contracts, don't expect people to read them. Communicate with people directly. But not all your customers are your friends. Cut toxic customers.
 
