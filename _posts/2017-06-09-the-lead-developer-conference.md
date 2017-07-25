@@ -260,40 +260,40 @@ Katherine brought an interesting and new perspective of (mis)communication betwe
 
 ### Anjuan Simmons - Leadership lessons from the agile manifesto <a name="#Anjuan_Simmons">&nbsp;</a>
 
-Anjuan starts with recounting the greatest influence on his way of being a leader: The Hero with a Thousand Faces, by Joseph Campbell. This book is about the path of the hero through life. Based on the book, Christopher Vogler defines a model for the hero's path. Anjuan summarizes it as follows:
+[Anjuan](https://twitter.com/anjuan) starts with recounting the greatest influence on his way of being a leader: [The Hero with a Thousand Faces](https://en.wikipedia.org/wiki/The_Hero_with_a_Thousand_Faces), by Joseph Campbell. This book is about the path of the hero through life. Based on the book, Christopher Vogler defines a model for the hero's path. Anjuan summarizes it as follows:
 
 1. The Call to Adventure
 2. Extreme trials
 3. Transformation
 4. Road back
 
-**The call to adventure** is often met with refusal —fear or responsibility in the ordinary life. But eventually the adventurer meets a mentor. She gives the hero both wisdom and gifts to help the hero on her journey. The hero is emboldend to overcome **extreme trials** and level up to approach the final ordeal. Solving this ordeal **transforms** the hero, often portrayed by being given a reward. Next, **the hero returns home**, atoning for the conflicts that were left behind in the ordinary world. Finally she uses her experience and the reward to improve the ordinary world.
+**The call to adventure** is often met with refusal because of fear or responsibility in the ordinary life. Eventually the adventurer meets a mentor. She gives the hero both wisdom and gifts to help the hero on her journey. The hero is emboldened to overcome **extreme trials** and level up to approach the final ordeal. Overcoming this ordeal **transforms** the hero. this is often portrayed by the hero receiving a reward. Next, **the hero returns home**, atoning for the conflicts that were left behind in the ordinary world. Finally she uses her experience and the reward to improve the ordinary world.
 
 Anjuan compares this with his decision to become a software developer and the trials he had to face and the experience he had to gain. He received certain gifts like structured, logic thinking that he uses to be a better leader.
 
-The part that drew him most to Campbell's model is the hero–mentor part. He realised the mentor has completed the hero's story and is now helping someone else do it. In a way, the mentor is passing the baton to the hero.
+The part that drew him most to Campbell's model is the hero–mentor part. He realised the mentor has completed the hero's story and is now helping someone else do it. In a way, the mentor is passing the baton —her skill and experience— to the hero.
 
-Actual baton's don't play a big role in real life, but Anjuan has found that something that comes close is **influence**. If he can improve this skill, he feels he will become a better leader.
+Anjuan has found that the thing that comes closest to a baton in his life is **influence**. If he can improve this skill, he feels he will become a better leader.
 
 #### The law of influence
 
-Anjuan refers to the book titled The 21 irrefutable laws of leadership, by John C. Maxwell. The key point in this book is the law of influence:
+Anjuan refers to the book titled [The 21 irrefutable laws of leadership](https://en.wikipedia.org/wiki/The_21_Irrefutable_Laws_of_Leadership), by John C. Maxwell. The key point in this book is the law of influence:
     
 > The true measure of leadership is influence. Nothing more. Nothing less.
 
 You can be a leader that wields his title, or a leader that gets buy-in of the team by using influence.
     
-James MacGregor Burns describes it in his book Leadership as _transactional_ (carrot and stick) vs. _transformational_ (charisma to influence) leadership.
+James MacGregor Burns describes it in his book [Leadership](https://en.wikipedia.org/wiki/James_MacGregor_Burns#Theory_of_leadership) as _transactional_ (carrot and stick) vs. _transformational_ (charisma to influence) leadership.
 
 How does one apply influence in his role as a leader? Anjuan takes inspiration in the values of the Agile manifesto:
 
-- _Individuals and interactions over processes and tools._ People build software, processes and tools don't. How do you get and keep a team motivated? Anjuan has found that "Preserve diginity at all costs" builds team influence. You don't have to all agree, but you have to respect everyone in your team.
+- _Individuals and interactions over processes and tools._ People build software, processes and tools don't. How do you get and keep a team motivated? Anjuan has found that "Preserve dignity at all costs" builds team influence. You don't have to all agree, but you have to respect everyone in your team.
 
-- _Working software over comprehensive documentation._ "Working always ships faster than perfect" means that you have to start with something, and improve it along the way. Focussing on getting things working, gains build influence. This applies to anything in your role as a leader.
+- _Working software over comprehensive documentation._ "Working always ships faster than perfect" means that you have to start with something, and improve it along the way. Focussing on getting things working, instead of on perfection, gains "build influence". People will start to see you as someone that gets things done build. This applies to anything in your role as a leader.
     
 - _Customer collaboration over contract negotiation._ Customers trust colleagues, not contracts, so treat your customers as colleagues. Nobody reads contracts, don't expect people to read them. Communicate with people directly. But not all your customers are your friends. Cut toxic customers.
 
-- _Responding to change, instead of following a plan._ We can't predict the future, so don't make plans to far ahead. "Don't fear surprises, fear inflexibility." Iterate and improve. By doing this he improved his scheduling influence, because he delivered sooner.
+- _Responding to change, instead of following a plan._ We can't predict the future, so don't make plans too far ahead. "Don't fear surprises, fear inflexibility." Iterate and improve. By doing this he improved his scheduling influence, because he started to be known as someone that deliveres sooner rather than later.
 
 #### Conclusion
 By optimizing your influence with people, your build, schedule and customers, you will maximize your effectiveness. When in doubt, look to the agile manifesto for guidance.
