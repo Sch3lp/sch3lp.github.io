@@ -411,7 +411,18 @@ We try to do this last one by organizing _Architecture sessions_, where we revie
 
 
 ### Carly Robinson - Mentoring Junior Engineers at Slack HQ <a name="#Carly_Robinson">&nbsp;</a>
+Up until a year and a half ago, Carly Robinson was a musical theatre actress, until she decided she wanted to make a huge career switch and become a software engineer. In this talk she tells her story of how and why she was able to achieve this goal at Slack HQ.
 
+#### Imposter syndrome
+Coming from a family of artists, she had no idea she would one day discover a love for software engineering and a drive to learn the craft. Starting off with with several coding boot camps like codecademy and hackbright (a women-only software engineering school at San Francisco), she felt the imposter syndrome creeping in even before she even got started. We, as a tech industry, need a culture of empathy and inclusion in order to make sure no talent is wasted because of this.
+
+#### The promise of mentorship
+When we promise aspiring software craftsmen and -women so-called mentorship, we have to make sure we deliver on this promise. Company culture drives how we learn and grow and can even hinder mentorship.
+
+
+#### What Slack does right
+#### Take of the training wheels
+#### Positive culture of learning
 
 ### Randall Koutnik - Implementers, Solvers and Finders <a name="#Randall_Koutnik">&nbsp;</a>
 
