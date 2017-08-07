@@ -416,13 +416,23 @@ Up until a year and a half ago, Carly Robinson was a musical theatre actress, un
 #### Imposter syndrome
 Coming from a family of artists, she had no idea she would one day discover a love for software engineering and a drive to learn the craft. Starting off with with several coding boot camps like codecademy and hackbright (a women-only software engineering school at San Francisco), she felt the imposter syndrome creeping in even before she even got started. We, as a tech industry, need a culture of empathy and inclusion in order to make sure no talent is wasted because of this.
 
-#### The promise of mentorship
-When we promise aspiring software craftsmen and -women so-called mentorship, we have to make sure we deliver on this promise. Company culture drives how we learn and grow and can even hinder mentorship.
-
-
 #### What Slack does right
+* Mentorship is a relationship. Make sure it is a good fit from the beginning.
+* Ask questions and listen. Discuss communication style, set clear goals and expectations, be specific.
+* Encourage self reflection. Define the mentee's strengths and weaknesses and come up with a plan to address these.
+* Discuss communication style between mentor and mentee (eg: no sugarcoating)
+* Talk about learning style and teaching style (eg: throw-into-the-fire or a more guided approach)
+* Set clear expectations and accountability. What is success? What is the goal in 3/6/12 months? Be specific and give regular feedback. Track progress and celebrate success. Do this for the mentee and the mentor as well.
+* Hold code reviews rooted in empathy and respect.
+* Foster intellectual humility. Eg: as a mentor, refrain from your initial "idiot"-reaction..
+
+
 #### Take of the training wheels
+Show belief in the growth and potentional of junior engineers by assigning them "stretch" projects after a month or six, or whenever they are ready. These are projects with high visibility and a fair chance of failure.
+
 #### Positive culture of learning
+People and values matter.
+Intellectual humility.
 
 ### Randall Koutnik - Implementers, Solvers and Finders <a name="#Randall_Koutnik">&nbsp;</a>
 
