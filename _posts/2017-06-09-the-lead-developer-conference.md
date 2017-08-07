@@ -425,14 +425,8 @@ Coming from a family of artists, she had no idea she would one day discover a lo
 * Set clear expectations and accountability. What is success? What is the goal in 3/6/12 months? Be specific and give regular feedback. Track progress and celebrate success. Do this for the mentee and the mentor as well.
 * Hold code reviews rooted in empathy and respect.
 * Foster intellectual humility. Eg: as a mentor, refrain from your initial "idiot"-reaction..
-
-
-#### Take of the training wheels
-Show belief in the growth and potentional of junior engineers by assigning them "stretch" projects after a month or six, or whenever they are ready. These are projects with high visibility and a fair chance of failure.
-
-#### Positive culture of learning
-People and values matter.
-Intellectual humility.
+* Show belief in the growth and potentional of junior engineers by assigning them "stretch" projects after a month or six, or whenever they are ready. These are projects with high visibility and a fair chance of failure.
+* Positive culture of learning.
 
 ### Randall Koutnik - Implementers, Solvers and Finders <a name="#Randall_Koutnik">&nbsp;</a>
 
