@@ -423,7 +423,7 @@ Coming from a family of artists, she had no idea she would one day discover a lo
 * Discuss communication style between mentor and mentee (e.g.: no sugarcoating)
 * Talk about learning style and teaching style (e.g.: throw-into-the-fire or a more guided approach)
 * Set clear expectations and accountability. What is success? What is the goal in 3/6/12 months? Be specific and give regular feedback. Track progress and celebrate success. Do this for the mentee and the mentor as well.
-* Hold code reviews rooted in empathy and respect.
+* Hold code reviews rooted in empathy and respect. Try to understand *why* someone has done something differently and explain how you would have approached the issue. Spark a conversation about the subject and listen.
 * Foster intellectual humility. E.g.: as a mentor, refrain from your initial _idiot_-reaction..
 * Show belief in the growth and potentional of junior engineers by assigning them _stretch_ projects after a month or six, or whenever they are ready. These are projects with high visibility and a fair chance of failure.
 * Positive culture of learning.
