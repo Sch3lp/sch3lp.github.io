@@ -411,7 +411,22 @@ We try to do this last one by organizing _Architecture sessions_, where we revie
 
 
 ### Carly Robinson - Mentoring Junior Engineers at Slack HQ <a name="#Carly_Robinson">&nbsp;</a>
+Up until a year and a half ago, [Carly Robinson](https://twitter.com/carlyhasredhair) was a musical theatre actress, until she decided she wanted to make a huge career switch and become a software engineer. In this talk she tells her story of how and why she was able to achieve this goal at Slack HQ.
 
+#### Impostor syndrome
+Coming from a family of artists, she had no idea she would one day discover a love for software engineering and a drive to learn the craft. Starting off with with several coding boot camps like codecademy and hackbright (a women-only software engineering school in San Francisco), she felt the impostor syndrome creeping in before she even got started. We, as a tech industry, need a culture of empathy and inclusion in order to make sure no talent is wasted because of this.
+
+#### What Slack does right
+* Mentorship is a relationship. Make sure it is a good fit from the beginning.
+* Ask questions and listen. Discuss communication style, set clear goals and expectations, be specific.
+* Encourage self reflection. Define the mentee's strengths and weaknesses and come up with a plan to address these.
+* Discuss communication style between mentor and mentee (e.g.: no sugarcoating)
+* Talk about learning style and teaching style (e.g.: throw-into-the-fire or a more guided approach)
+* Set clear expectations and accountability. What is success? What is the goal in 3/6/12 months? Be specific and give regular feedback. Track progress and celebrate success. Do this for the mentee and the mentor as well.
+* Hold code reviews rooted in empathy and respect. Try to understand *why* someone has done something differently and explain how you would have approached the issue. Spark a conversation about the subject and listen.
+* Foster intellectual humility. E.g.: as a mentor, refrain from your initial _idiot_-reaction..
+* Show belief in the growth and potentional of junior engineers by assigning them _stretch_ projects after a month or six, or whenever they are ready. These are projects with high visibility and a fair chance of failure.
+* Positive culture of learning.
 
 ### Randall Koutnik - Implementers, Solvers and Finders <a name="#Randall_Koutnik">&nbsp;</a>
 
