@@ -8,9 +8,9 @@ published: false
 Last year I blogged as well, and this year, I'm doing more of the same! Hooray!
 
 ## Thanks are in order
-Thanks for the laughs and many inside jokes to my travel companions and colleagues [Frans Guelinckx](), [Steven Op de Beeck](). [Imanuel Rennen](), [Tom Briers]() and [Nathan Vandecauter]().
+Thanks for the laughs and many inside jokes to my travel companions and colleagues [Frans Guelinckx](), [Steven Op de beeck](). [Imanuel Rennen](), [Tom Briers]() and [Nathan Vandecauter]().
 
-Thanks also go out to our employer, [Cegeka](http://www.cegeka.com), who paid for travel, accomodation and the entrance fee (for -let's be honest- a lot of people).
+Thanks also go out to our employer, [Cegeka](http://www.cegeka.com), who paid for travel, accomodation and the entrance fee for —let's be honest— a lot of people.
 
 Thanks to the organizers, [White October Events](http://www.whiteoctoberevents.co.uk), who once again did an _amazing_ job at making everyone feel right at home and safe.
 
@@ -260,6 +260,44 @@ Katherine brought an interesting and new perspective of (mis)communication betwe
 
 ### Anjuan Simmons - Leadership lessons from the agile manifesto <a name="#Anjuan_Simmons">&nbsp;</a>
 
+[Anjuan](https://twitter.com/anjuan) starts with recounting the greatest influence on his way of being a leader: [The Hero with a Thousand Faces](https://en.wikipedia.org/wiki/The_Hero_with_a_Thousand_Faces), by Joseph Campbell. This book is about the path of the hero through life. Based on the book, Christopher Vogler defines a model for the hero's path. Anjuan summarizes it as follows:
+
+1. The Call to Adventure
+2. Extreme trials
+3. Transformation
+4. Road back
+
+**The call to adventure** is often met with refusal because of fear or responsibility in the ordinary life. Eventually the adventurer meets a mentor. She gives the hero both wisdom and gifts to help the hero on her journey. The hero is emboldened to overcome **extreme trials** and level up to approach the final ordeal. Overcoming this ordeal **transforms** the hero. this is often portrayed by the hero receiving a reward. Next, **the hero returns home**, atoning for the conflicts that were left behind in the ordinary world. Finally she uses her experience and the reward to improve the ordinary world.
+
+Anjuan compares this with his decision to become a software developer and the trials he had to face and the experience he had to gain. He received certain gifts like structured, logic thinking that he uses to be a better leader.
+
+The part that drew him most to Campbell's model is the hero–mentor part. He realised the mentor has completed the hero's story and is now helping someone else do it. In a way, the mentor is passing the baton —her skill and experience— to the hero.
+
+Anjuan has found that the thing that comes closest to a baton in his life is **influence**. If he can improve this skill, he feels he will become a better leader.
+
+#### The law of influence
+
+Anjuan refers to the book titled [The 21 irrefutable laws of leadership](https://en.wikipedia.org/wiki/The_21_Irrefutable_Laws_of_Leadership), by John C. Maxwell. The key point in this book is the law of influence:
+    
+> The true measure of leadership is influence. Nothing more. Nothing less.
+
+You can be a leader that wields his title, or a leader that gets buy-in of the team by using influence.
+    
+James MacGregor Burns describes it in his book [Leadership](https://en.wikipedia.org/wiki/James_MacGregor_Burns#Theory_of_leadership) as _transactional_ (carrot and stick) vs. _transformational_ (charisma to influence) leadership.
+
+How does one apply influence in his role as a leader? Anjuan takes inspiration in the values of the Agile manifesto:
+
+- _Individuals and interactions over processes and tools._ People build software, processes and tools don't. How do you get and keep a team motivated? Anjuan has found that "Preserve dignity at all costs" builds team influence. You don't have to all agree, but you have to respect everyone in your team.
+
+- _Working software over comprehensive documentation._ "Working always ships faster than perfect" means that you have to start with something, and improve it along the way. Focussing on getting things working, instead of on perfection, gains "build influence". People will start to see you as someone that gets things done. This applies to anything in your role as a leader.
+    
+- _Customer collaboration over contract negotiation._ Customers trust colleagues, not contracts, so treat your customers as colleagues. Nobody reads contracts, don't expect people to read them. Communicate with people directly. But not all your customers are your friends. Cut toxic customers.
+
+- _Responding to change, instead of following a plan._ We can't predict the future, so don't make plans too far ahead. "Don't fear surprises, fear inflexibility." Iterate and improve. By doing this he improved his scheduling influence, because he started to be known as someone that delivers sooner rather than later.
+
+#### Conclusion
+By optimizing your influence with people, your build, schedule and customers, you will maximize your effectiveness. When in doubt, look to the agile manifesto for guidance.
+
 
 ### Cate Huston - YOLO Releases considered harmful <a name="#Cate_Huston">&nbsp;</a>
 
@@ -373,7 +411,22 @@ We try to do this last one by organizing _Architecture sessions_, where we revie
 
 
 ### Carly Robinson - Mentoring Junior Engineers at Slack HQ <a name="#Carly_Robinson">&nbsp;</a>
+Up until a year and a half ago, [Carly Robinson](https://twitter.com/carlyhasredhair) was a musical theatre actress, until she decided she wanted to make a huge career switch and become a software engineer. In this talk she tells her story of how and why she was able to achieve this goal at Slack HQ.
 
+#### Impostor syndrome
+Coming from a family of artists, she had no idea she would one day discover a love for software engineering and a drive to learn the craft. Starting off with with several coding boot camps like codecademy and hackbright (a women-only software engineering school in San Francisco), she felt the impostor syndrome creeping in before she even got started. We, as a tech industry, need a culture of empathy and inclusion in order to make sure no talent is wasted because of this.
+
+#### What Slack does right
+* Mentorship is a relationship. Make sure it is a good fit from the beginning.
+* Ask questions and listen. Discuss communication style, set clear goals and expectations, be specific.
+* Encourage self reflection. Define the mentee's strengths and weaknesses and come up with a plan to address these.
+* Discuss communication style between mentor and mentee (e.g.: no sugarcoating)
+* Talk about learning style and teaching style (e.g.: throw-into-the-fire or a more guided approach)
+* Set clear expectations and accountability. What is success? What is the goal in 3/6/12 months? Be specific and give regular feedback. Track progress and celebrate success. Do this for the mentee and the mentor as well.
+* Hold code reviews rooted in empathy and respect. Try to understand *why* someone has done something differently and explain how you would have approached the issue. Spark a conversation about the subject and listen.
+* Foster intellectual humility. E.g.: as a mentor, refrain from your initial _idiot_-reaction..
+* Show belief in the growth and potentional of junior engineers by assigning them _stretch_ projects after a month or six, or whenever they are ready. These are projects with high visibility and a fair chance of failure.
+* Positive culture of learning.
 
 ### Randall Koutnik - Implementers, Solvers and Finders <a name="#Randall_Koutnik">&nbsp;</a>
 
