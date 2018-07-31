@@ -5,7 +5,7 @@ tags: [event-storming, experience-report]
 published: true
 ---
 
-After last times [Event Storming exercise](/2014-07-12-event-storming-exercise) I was anxious to do it again. 
+After last times [Event Storming exercise](/2014/07/12/event-storming-exercise) I was anxious to do it again. 
 And as luck would have it, an opportunity arose soon after.
 
 Friend and colleague Tom Toutenel asked me if I could facilitate an event storming session for one of our newly won clients. I was of course, happy to oblige.
