@@ -27,8 +27,6 @@ Once again I took some [notes](http://github.com/sch3lp/LeadDevNotes), where I b
     - [Maria Gutierrez - Time to focus on your goals](/2017/06/09/the-lead-developer-conference/#Maria_Gutierrez)
     - [Rob Allen - 5 Features of a good API](/2017/06/09/the-lead-developer-conference/#Rob_Allen)
     - [Anjuan Simmons - Leadership lessons from the agile manifesto](/2017/06/09/the-lead-developer-conference/#Anjuan_Simmons)
-    - [Cate Huston - YOLO Releases considered harmful](/2017/06/09/the-lead-developer-conference/#Cate_Huston)
-    - [Sander Hoogendoorn - Forty months of microservices. Stairway to heaven or highway to hell?](/2017/06/09/the-lead-developer-conference/#Sander_Hoogendoorn)
     - [Erika Carlson - Better Fearless Feedback for Software Teams](/2017/06/09/the-lead-developer-conference/#Erika_Carlson)
     - [Nickolas Means - The original Skunk Works](/2017/06/09/the-lead-developer-conference/#Nickolas_Means)
 - Day 2
@@ -287,16 +285,11 @@ How does one apply influence in his role as a leader? Anjuan takes inspiration i
 - _Responding to change, instead of following a plan._ We can't predict the future, so don't make plans too far ahead. "Don't fear surprises, fear inflexibility." Iterate and improve. By doing this he improved his scheduling influence, because he started to be known as someone that delivers sooner rather than later.
 
 #### Conclusion
+
 By optimizing your influence with people, your build, schedule and customers, you will maximize your effectiveness. When in doubt, look to the agile manifesto for guidance.
 
-
-### Cate Huston - YOLO Releases considered harmful <a name="#Cate_Huston">&nbsp;</a>
-
-
-### Sander Hoogendoorn - Forty months of microservices. Stairway to heaven or highway to hell <a name="#Sander_Hoogendoorn">&nbsp;</a>
-
-
 ### Erika Carlson - Better Fearless Feedback for Software Teams <a name="#Erika_Carlson">&nbsp;</a>
+
 [Erika Carlson](https://twitter.com/eacarlson) came on to talk about feedback, like Dan North did last year.
 
 #### Types of feedback
