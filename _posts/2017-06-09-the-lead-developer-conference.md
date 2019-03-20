@@ -8,7 +8,7 @@ published: true
 Last year I blogged as well, and this year, I'm doing more of the same! Hooray!
 
 ## Thanks are in order
-Thanks for the laughs and many inside jokes to my travel companions and colleagues [Frans Guelinckx](), [Steven Op de beeck](). [Imanuel Rennen](), [Tom Briers]() and [Nathan Vandecauter]().
+Thanks for the laughs and many inside jokes to my travel companions and colleagues Frans Guelinckx, Steven Op de beeck. Imanuel Rennen, Tom Briers and Nathan Vandecauter.
 
 Thanks also go out to our employer, [Cegeka](http://www.cegeka.com), who paid for travel, accomodation and the entrance fee for —let's be honest— a lot of people.
 
