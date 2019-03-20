@@ -2,7 +2,7 @@
 layout: post
 title: The Lead Developer Conference 2017
 tags: [experience-report]
-published: false
+published: true
 ---
 
 Last year I blogged as well, and this year, I'm doing more of the same! Hooray!
@@ -32,17 +32,8 @@ Once again I took some [notes](http://github.com/sch3lp/LeadDevNotes), where I b
     - [Erika Carlson - Better Fearless Feedback for Software Teams](/2017/06/09/the-lead-developer-conference/#Erika_Carlson)
     - [Nickolas Means - The original Skunk Works](/2017/06/09/the-lead-developer-conference/#Nickolas_Means)
 - Day 2
-    - [Kevin Goldsmith - Fail Safe, Fail Smart, Succeed](/2017/06/09/the-lead-developer-conference/#Kevin_Goldsmith)
     - [Birgitta Böckeler - We're Agile, we don't do doumentation](/2017/06/09/the-lead-developer-conference/#Birgitta_Boeckeler)
-    - [Mathias Meyer - Building and Scaling a distributed and inclusive team](/2017/06/09/the-lead-developer-conference/#Mathias_Meyer)
-    - [Sabrina Leandro - Lessons from Big rewrite projects](/2017/06/09/the-lead-developer-conference/#Sabrina_Leandro)
-    - [Patrik Karisch - Continuous Accessibility](/2017/06/09/the-lead-developer-conference/#Patrik_Karisch)
     - [Carly Robinson - Mentoring Junior Engineers at Slack HQ](/2017/06/09/the-lead-developer-conference/#Carly_Robinson)
-    - [Randall Koutnik - Implementers, Solvers and Finders](/2017/06/09/the-lead-developer-conference/#Randall_Koutnik)
-    - [Crystal Huff - Tech Hiring: Sometimes (Often) Failing Us All](/2017/06/09/the-lead-developer-conference/#Crystal_Huff)
-    - [Sally Jenkinson - Making the leap from execution to strategy](/2017/06/09/the-lead-developer-conference/#Sally_Jenkinson)
-    - [Jill Wetzler - Developing Diverse Teams](/2017/06/09/the-lead-developer-conference/#Jill_Wetzler)
-
 
 ## Day 1 - Tech Leads, Feedback, and what not
 ### Patrick Kua - The constant life of a tech lead <a name="#Patrick_Kua">&nbsp;</a>
@@ -340,9 +331,6 @@ So, I started writing stuff down and then promptly stopped when it sank in I was
 Just watch his presentation when it's online.
 
 ## Day 2 - Failing, Diversity, and what not
-### Kevin Goldsmith - Fail Safe, Fail Smart, Succeed <a name="#Kevin_Goldsmith">&nbsp;</a>
-
-
 ### Birgitta Böckeler - We're Agile, we don't do doumentation <a name="#Birgitta_Boeckeler">&nbsp;</a>
 This was a damn good talk by [Birgitta](https://twitter.com/birgitta410), shining some light on the often misunderstood _documentation_.
 
@@ -401,15 +389,6 @@ Book recommendation: [The back of the napkin by Dan Roam](http://www.danroam.com
 
 We try to do this last one by organizing _Architecture sessions_, where we review parts of our design, or higher level architecture by collaborating on diagrams in order to increase our shared understanding of the project we're working on.
 
-### Mathias Meyer - Building and Scaling a distributed and inclusive team <a name="#Mathias_Meyer">&nbsp;</a>
-
-
-### Sabrina Leandro - Lessons from Big rewrite projects <a name="#Sabrina_Leandro">&nbsp;</a>
-
-
-### Patrik Karisch - Continuous Accessibility <a name="#Patrik_Karisch">&nbsp;</a>
-
-
 ### Carly Robinson - Mentoring Junior Engineers at Slack HQ <a name="#Carly_Robinson">&nbsp;</a>
 Up until a year and a half ago, [Carly Robinson](https://twitter.com/carlyhasredhair) was a musical theatre actress, until she decided she wanted to make a huge career switch and become a software engineer. In this talk she tells her story of how and why she was able to achieve this goal at Slack HQ.
 
@@ -427,16 +406,4 @@ Coming from a family of artists, she had no idea she would one day discover a lo
 * Foster intellectual humility. E.g.: as a mentor, refrain from your initial _idiot_-reaction..
 * Show belief in the growth and potentional of junior engineers by assigning them _stretch_ projects after a month or six, or whenever they are ready. These are projects with high visibility and a fair chance of failure.
 * Positive culture of learning.
-
-### Randall Koutnik - Implementers, Solvers and Finders <a name="#Randall_Koutnik">&nbsp;</a>
-
-
-### Crystal Huff - Tech Hiring: Sometimes (Often) Failing Us All <a name="#Crystal_Huff">&nbsp;</a>
-
-
-### Sally Jenkinson - Making the leap from execution to strategy <a name="#Sally_Jenkinson">&nbsp;</a>
-
-
-### Jill Wetzler - Developing Diverse Teams <a name="#Jill_Wetzler">&nbsp;</a>
-
 
