@@ -2,13 +2,13 @@
 layout: post
 title: Vicious and Virtuous cycles of Motivation
 tags: [thought-experiment]
-published: false
+published: true
 ---
 
 ## TL;DR
 I believe there is both a positive and negative _[reinforcing feedback loop](http://www.systems-thinking.org/theWay/sre/re.htm)_ between appreciation, motivation and performance. And becoming aware of this simple model may help counteract the vicious aspect and strengthen the virtuous one.
 
-If you want to practice using this model and see what other people can come up with, I invite you to join our [next Kunlaboratorium](). Oh, and here's the [loopy](http://bit.ly/vivi-cycles) you can play around with.
+If you want to practice using this model and see what other people can come up with, I invite you to join our [next Kunlaboratorium](http://meetu.ps/e/GxCJd/sYjbW/f). Oh, and here's the [loopy](http://bit.ly/vivi-cycles) you can play around with.
 
 ## Conception
 The other day I woke up in the middle of the night and I had this **urge** to write down what I was thinking and see if my _morning self_ also thought this was valuable somehow.
