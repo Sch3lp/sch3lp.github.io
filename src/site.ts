@@ -25,6 +25,8 @@ export const site = {
 const tagNames: Record<string, string> = {
   'how-to': 'HowTo',
   TDD: 'TDD',
+  ai: 'AI',
+  socratesbe: 'SocratesBE',
 };
 
 export function tagName(slug: string): string {
