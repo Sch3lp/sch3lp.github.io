@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import literata from '@fontsource-variable/literata/files/literata-latin-opsz-normal.woff2?url';
 import { site } from '../site';
 
 interface Props {
@@ -25,6 +26,9 @@ const nav = [
     <meta name="author" content={site.author.name} />
     <meta name="description" content={description} />
     <title>{pageTitle}</title>
+    <link rel="preload" href={literata} as="font" type="font/woff2" crossorigin />
+    <meta name="theme-color" content="#fbf8f4" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1613" media="(prefers-color-scheme: dark)" />
     <link rel="canonical" href={new URL(path, Astro.site)} />
     <meta property="og:title" content={title ?? site.title} />
     <meta property="og:description" content={description} />

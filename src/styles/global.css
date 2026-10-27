@@ -1,4 +1,6 @@
-@import '@fontsource-variable/literata';
+/* The opsz builds include the optical-size axis: sturdier body text, finer headings. */
+@import '@fontsource-variable/literata/opsz.css';
+@import '@fontsource-variable/literata/opsz-italic.css';
 
 :root {
   --bg: #fbf8f4;
