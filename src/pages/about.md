@@ -9,7 +9,7 @@ Tim is an enthusiastic software crafter with a big heart for his co-workers. Wit
 
 His love for Kotlin is a natural extension for a person that cried many tears in NullPointerException and has come to adore strong typed languages.
 
-Outside of work Tim hosts MeetUps for the Belgian Software Crafting & Testing community (SocratesBE), plays board- and videogames, goes on walks with his trusty dog companion and tries to keep his DuoLingo streak going in learning Norwegian.
+Outside of work Tim hosts MeetUps for the Belgian Software Crafting & Testing community ([SocratesBE](https://socratesbe.org)), plays board- and videogames, goes on walks with his trusty dog companion and tries to keep his DuoLingo streak going in learning Norwegian.
 
 ## About this blog
 
