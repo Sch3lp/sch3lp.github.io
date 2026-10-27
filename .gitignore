@@ -47,3 +47,6 @@ bower_components
 # Astro
 dist
 .astro
+
+# Raw Disqus export (converted into src/data/legacy-comments.json)
+sch3lpsblog-*.xml

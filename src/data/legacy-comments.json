@@ -1,0 +1,147 @@
+{
+  "2014-07-12-event-storming-exercise": [
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T07:02:17Z",
+      "html": "<p>Let's try to provide some answers: they're not \"definitive answers\" but they're honest. :-)</p><p>Question 1: \"How do you properly use the result of an Event Storming session to produce stories?\" The way I do it is, I keep the EventStorming model as a support for a narrative. A user story is a unit of value delivered, chopped to match iteration length. If I can tell that story in terms of commands, events and UI elements, then I'm happy. Not all user stories will fit in that schema (some might be purely UX while the logic behind them could be unchanged) but for the business related ones I'd expect events aggregates and command to be useful building blocks.</p><p>I've found out that Amr Elssamadisy had a very similar approach on the topic, based on Story Mapping. He didn't know about Event Storming, and as far as I know he hasn't blogged about it, but his approach matched perfectly.</p><p>I still have the storyboard analogy in mind (one of my secret inspiration was a 'special content' on one of the TV series 'LOST' where the storyboard was huge and full of stickies, representing key episodes). The paper roll becomes a representation of the whole plot, while a User Story might be a single episode, or a simple sub-plot involving one or eventually few actors.</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T07:08:33Z",
+      "html": "<p>Question 2: \"Can you write your implementation completely based on the events you put up during the session?\"</p><p>Well... you can, and my suggestion is to start coding as soon as possible, on the most relevant areas. But You'll need coding to discover pieces where the model is wrong or incomplete. EventStorming is not an ultra-quick waterfall. Active participation of many stakeholder is a powerful error-checking mechanism, but for some kind of mistakes you'll need tests and working code, just to discover that in practice it's not as easy as it looked like.</p><p>Every model is wrong, our goal is to discover mistakes as soon as possible. Anticipated feedback is key, be it from stakeholders, tests or users.</p><p>However, if the session is a large-scale one, you'll have to focus only on a relevant portion of the system. Good news is that during the session it would be ultra clear which is the portion to start with.</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T07:34:58Z",
+      "html": "<p>I forgot a little piece of the answer... my goal is not to produce User Stories. Stories are a 'necessary evil': they serve as unit of progress tracking in an iterative software development scenario. But they introduce overhead. In another presentation \"Rethinking Enterprise Software\" <a href=\"https://www.youtube.com/watch?v=ji3-HacznsM\" rel=\"nofollow noopener\">https://www.youtube.com/wat...</a> I showed how, as a product owner, I started being a lot less interested in the user story format, and a lot more in the value delivered. Which isn't delivered when the implementation is over, but when users are starting to use the new feature and when this translates into a 'problem solved' scenario.</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T07:40:56Z",
+      "html": "<p>Question 3: \"Can you write a \"walking skeleton\" from the global event flow and do you use this to hook your story implementations on? Or is that considered to be too much of an upfront design?\"</p><p>Yep, you can do it. But I wouldn't be obsessed with completeness. Sometimes the business flow that emerges from EventStorming is already implemented in a Legacy System. Sometimes (i.e. in a small company) the flow is 99% manual and the question is \"which one is the step whose implementation would deliver the greatest benefits\".</p><p>In general, EventStorming is a large-spectrum discovery tool. Can't say what you'll discover in advance, so I make no assumptions about the process. In one case the output was: \"forget about your plan, the ONE thing to do is to rewrite this little piece of software\"</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T07:49:25Z",
+      "html": "<p>Question 4: \"We know of some projects that already used Domain Events and/or Event Sourcing. How did they end up with their events? Did they also model this first somehow?\"</p><p>Maybe I shouldn't even answer this one, but... the answer is I don't know. EventStorming is what I do on my projects, regardless if I am going to implement software with an Event Sourcing architecture. Sometimes there's no implementation at all...</p><p>Event Sourcing predates EventStorming a lot. So there have been many projects delivered without paper rolls. However, once you're in the mindset, EventStorming starts feeling so natural...</p><p>Greg Young was one of my inspiring sources and he is doing both event-based domain exploration, and document-based domain exploration. Here's the video where Greg explains some of his stuff: <a href=\"https://skillsmatter.com/skillscasts/4081-greg-young-4081\" rel=\"nofollow noopener\">https://skillsmatter.com/sk...</a></p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T07:54:51Z",
+      "html": "<p>Question 5: \"Did they ever model an event that ended up being 4 separate events? And how much of a problem was it to modify their code at that point? Or did they ever model events that ended up being irrelevant? Or vice versa, did they miss events that ended up being super important?\"</p><p>Can't say who the subject is now. But discovering that an event is not exactly 'one event' is definitely in the cards. EventStorming is for discovering this type of situation early in the game.</p><p>For the remainder of the question, can't really say how messy it was to rescue a bad model. I really try hard to steer discussion as a facilitator not to mess critical details. Backward exploration and focusing on the business relevant domain events are powerful tools.</p><p>Unfortunately, they kill problems before they arise. So it's hard to get credit/reward for solving problems if problems don't arise. :o)</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T07:59:29Z",
+      "html": "<p>Question 6: \"For me personally there's still some unclarity on commands and how to properly position your events when your straight timeline splits up into multiple ones. Can you just put those separate flows anywhere, because the eventstorming session only serves to make a mental picture?\"</p><p>Well... yes. I haven't clarified this point yet. The trick is not to be limited by the space. One of the best thing about paper rolls is that you can put another one above or below the original one if you feel the need of parallel swimlanes. They might eventually map into separate bounded contexts.</p><p>But (blog post coming soon) there's a significant advantage in keeping domain events placed along sequential timeline. At least in the initial steps. You'll end up breaking the sequence when modelling aggregates (different event may happen at very different moments in time, on the same aggregate) but it will help get the narrative right.</p>"
+    },
+    {
+      "author": "Tim Schraepen",
+      "date": "2014-07-21T08:03:45Z",
+      "html": "<p>These questions were directed to one of our teams who were already using eventsourcing but didn't use event storming. However, they told us their domain experts nearly spoke in events constantly themselves so they made a big map of eventflows. </p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T08:36:28Z",
+      "html": "<p>Initial Question 2: \"To start using Event Driven Architecture one would normally start with Domain Events, can Event Storming help facilitate with that?\"</p><p>Well ...Yes. That was the original intent of EventStorming, and still the 'house speciality'. But now I do EventStorming regardless of the destination. The event focused discussion, with all the key stakeholders can be really important and lead to major breakthroughs.</p><p>However, depending on the people in the room I might decide to stop before digging into aggregates (boring for stakeholders not directly involved) and keep that discussion for a smaller focused group.</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2014-07-21T08:44:31Z",
+      "html": "<p>Initial question 3: \"Is EventStorming used to model a problem? Or just to model a flow? Or is it maybe a way to explore a process or a problem space?\"</p><p>EventStorming is targeted towards business flows. What happened in practice was that we discovered that many of the techniques we used in EventStorming were relevant also in a broader way.</p><p>I started calling \"Model Storming\" the more general approach, that one can adopt to model virtually ...everything. In Model Storming I don't know where I am going and the notation emerges iteratively, by asking \"what is the next thing you'd like to see represented in the model?\" to the participants. At the beginning of a Model Storming I don't know how the final model is going to look like, while with EventStorming i sort of know the sequence, with some possible variations.</p><p>If I had named Model Storming before I might have said something like \"EventStorming is what happens when you apply Model Storming principles to business workflows\". Only ...I discovered/named the two things in the opposite order.</p>"
+    },
+    {
+      "author": "Mathias Verraes",
+      "date": "2014-07-22T19:22:03Z",
+      "html": "<p>Awesome experience report :) You pretty much answered the question on granularity of events, but I'll still say this: it helps if you have a domain expert. I think that if you do this with an actual client, and an actual problem, you'll find it's a lot easier than trying to do it with a game. You don't need to debate the granularity, you can simply ask if the client is interested in the event. Your car example strikes me, because I'm involved in a car rental project. Car or engine started? No, the DE would talk about a trip that started. After all, that's what they sell: the ability to make a trip, not the ability to start an engine.</p><p>More generally, a heuristic that might have helped you with the board game, is to separate the reason for doing something, from the mechanics of doing it. For example, \"Rolled Dice {value=3}\" vs \"Advanced Player {numberOfSteps=3}\". You might want to replace dice with another mechanism for randomizing numbers -- it's just a UI tool. But no matter the tool, you'll still want to advance the player on the board.  Likewise, Button Was Clicked vs Payment Was Made etc</p>"
+    },
+    {
+      "author": "Tim Schraepen",
+      "date": "2014-07-22T20:34:20Z",
+      "html": "<p>Cool! Thanks for your clear view and helpful examples man!</p>"
+    }
+  ],
+  "2015-01-22-how-to-run-a-responsibility-process-retrospective": [
+    {
+      "author": "Christopher Avery",
+      "date": "2015-01-22T21:06:50Z",
+      "html": "<p>Hey, Thank you Tim for your kind remarks about The Responsibility Process. I'm glad you find it powerful. Indeed, it has held my attention for a very long time.</p><p>Your retrospective design makes much since. It helps to establish a shared language about ownership. And of course it generates huge amounts of awareness about otherwise unconscious human behavior.</p><p>Well done.</p><p>One watch-out-for would be calling each other out or labeling other's actions. When we weaponize The Responsibility Process we likely are not operating from Responsibility but from Lay Blame. When we truly operate from Responsibility we are more likely to come from empathy and compassion in responding to others expressions of angst.</p>"
+    },
+    {
+      "author": "Tim Schraepen",
+      "date": "2015-01-22T21:13:04Z",
+      "html": "<p>Thanks for commenting with that valuable pro-tip!</p>"
+    },
+    {
+      "author": "Dries Vleugels",
+      "date": "2016-02-12T13:56:15Z",
+      "html": "<p>Hi Tim,</p><p>I like the Idea of retro-ing the responsibility process.<br>Christopher hinted me last week that it's  possible to use in a retro and I liked the idea immediately,<br>but your example makes it very easy to use.</p><p>Thanks.</p>"
+    },
+    {
+      "author": "Tim Schraepen",
+      "date": "2016-02-14T11:01:58Z",
+      "html": "<p>Cheers!<br>Have fun doing your retro :)</p>"
+    },
+    {
+      "author": "Megan McIntosh",
+      "date": "2016-02-22T12:32:08Z",
+      "html": "<p>Just ran this retro in my team. We had a hard time coming up with really good smart actions, but I have a feeling there will still be some good lasting impacts anyway, just from discussing the responsibility process at all.</p><p>The discussions we had were the best during the time when going through the post-its themselves and talking about which phases we were in. It was easy for team members to empathize with one another, especially when discussing things in the Shame column, which was where we had the most post-its. (I wonder what that says about our team / organizational culture?)</p><p>For an easy opener and closer we did the thing where you draw a line on the floor (ours was an imaginary line) and designate opposite poles as positive and negative. At the beginning of the session I asked 'How was the last iteration' and at the end I asked 'Did you get anything out of the retro'.</p><p>It was pretty easy to facilitate and I think it will help us. So, thanks!</p>"
+    },
+    {
+      "author": "Franky Redant",
+      "date": "2016-04-06T07:20:47Z",
+      "html": "<p>Great format, Tim. I was looking for a way to get a team to think about the responsibility process in a hour's time. So this is going to be just fine. Thnx for sharing.</p>"
+    }
+  ],
+  "2015-02-01-event-storming-for-realz": [
+    {
+      "author": "Mathias Verraes",
+      "date": "2015-02-01T19:25:32Z",
+      "html": "<p>Can you expand on this:</p><p>&gt;&gt; Take note of gestures (“moving”, “pointing”, “cutting”)</p>"
+    },
+    {
+      "author": "Mathias Verraes",
+      "date": "2015-02-01T19:30:32Z",
+      "html": "<p>Regarding Contexts: This is indeed perfectly natural. In my experience, people automatically start separating groups of events that can happen in parallel with other groups. Typically, the clusters can have some causal relation (something in one cluster triggers something in the other cluster), but most of the events stay neatly within one cluster and do not \"know\" about the rest of the world. This is a good time to start asking questions like \"who is doing this and for what benefit\".</p>"
+    },
+    {
+      "author": "Tim Schraepen",
+      "date": "2015-02-01T19:39:13Z",
+      "html": "<p>This is a tip that I got from Alberto Brandolini, where he said to take note of these gestures. As it will usually point to interesting items on the story line. e.g. If you see people make a downwards cutting motion with both hands spread apart, it signals that there is some context right there. And if they're not figuring it out themselves, you as a facilitator, can help them get there.<br>It was just a simple reminder to myself.</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2015-02-02T15:04:06Z",
+      "html": "<p>Yep, that's more or less some parts of the \"Ubiquitous Body Language\" I've talked about lately. Domain Experts might take ownership on some portions of the domain, or even set explicit boundaries: \"I care about it up to this event\"</p>"
+    },
+    {
+      "author": "Alberto Brandolini",
+      "date": "2015-02-02T15:11:31Z",
+      "html": "<p>Yep there is an implicit two-step process in there. The natural separation will highlight Subdomains in DDD lingo. It's not really important to separate the concepts of Subdomains from the one of Bounded Context in the scope of an EventStorming workshop, but if one would .... then my advice would be to look into different *purposes* for different actors. and treat the model supporting one specific purpose as a natural Bounded Context. However, definition of \"purpose\" might be fuzzy.,..</p>"
+    }
+  ],
+  "2016-09-11-darefest-2016": [
+    {
+      "author": "Gilliam",
+      "date": "2016-10-11T20:42:57Z",
+      "html": "<p>Exhaustive write-up! While reading about the separate events you went to I also came to your conclusion that a lot of them were too sales oriented. Lead Developer conference it is.</p>"
+    }
+  ],
+  "2019-03-20-virtuous-and-vicious-cycles-of-motivation": [
+    {
+      "author": "Gert Vanthournout",
+      "date": "2019-07-04T06:55:05Z",
+      "html": "<p>Hey Tim,<br>your post triggered a link to the job-demands-resources model in my head:<br><a href=\"https://www.wilmarschaufeli.nl/publications/Schaufeli/401.pdf\" rel=\"nofollow noopener\">https://www.wilmarschaufeli...</a></p><p>Hope it helps</p>"
+    },
+    {
+      "author": "Tim Schraepen",
+      "date": "2019-07-04T07:10:40Z",
+      "html": "<p>Cool! At first glance it looks like a more detailed model which could bring some more insight into what motivates me. Thanks for sharing!</p>"
+    },
+    {
+      "author": "Gert Vanthournout",
+      "date": "2019-07-04T07:12:52Z",
+      "html": "<p>Time to take the post-its out and start mapping resources and demands (and ask Jo to send me a picture afterwards) ... interesting stuff</p>"
+    }
+  ]
+}

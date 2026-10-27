@@ -1,61 +1,54 @@
 ---
 import { site } from '../site';
 
-interface Props {
-  // Must stay equal to what Jekyll used (the post's filename) to keep existing threads.
-  identifier: string;
-  url: string;
-}
-
-const { identifier, url } = Astro.props;
-const shortname = site.disqusShortname;
+const { repo, repoId, category, categoryId } = site.giscus;
 ---
 
 {
-  shortname && (
-    <section class="comments" data-shortname={shortname} data-identifier={identifier} data-url={url}>
-      <button type="button" class="load-comments">Show comments</button>
-      <div id="disqus_thread" />
+  categoryId && (
+    <section class="comments">
+      <script
+        is:inline
+        src="https://giscus.app/client.js"
+        data-repo={repo}
+        data-repo-id={repoId}
+        data-category={category}
+        data-category-id={categoryId}
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async
+      />
     </section>
   )
 }
 
 <script>
-  // Disqus is only loaded when the reader asks for it: no third-party tracking by default.
-  const section = document.querySelector<HTMLElement>('.comments');
-  section?.querySelector('button')?.addEventListener('click', (e) => {
-    (e.currentTarget as HTMLElement).remove();
-    const { shortname, identifier, url } = section.dataset;
-    (window as any).disqus_config = function (this: any) {
-      this.page.identifier = identifier;
-      this.page.url = url;
-    };
-    const s = document.createElement('script');
-    s.src = `https://${shortname}.disqus.com/embed.js`;
-    s.setAttribute('data-timestamp', String(Date.now()));
-    document.body.appendChild(s);
+  // Keep giscus in sync with the site's theme toggle.
+  function giscusTheme() {
+    const theme = document.documentElement.dataset.theme;
+    return theme === 'dark' ? 'dark_dimmed' : theme === 'light' ? 'light' : 'preferred_color_scheme';
+  }
+
+  function sendTheme() {
+    const frame = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
+    frame?.contentWindow?.postMessage({ giscus: { setConfig: { theme: giscusTheme() } } }, 'https://giscus.app');
+  }
+
+  new MutationObserver(sendTheme).observe(document.documentElement, { attributeFilter: ['data-theme'] });
+  window.addEventListener('message', (e) => {
+    if (e.origin === 'https://giscus.app') sendTheme();
   });
 </script>
 
 <style>
   .comments {
     margin-top: 3rem;
-  }
-
-  .load-comments {
-    font: inherit;
-    font-family: var(--font-sans);
-    font-size: 0.9rem;
-    padding: 0.55em 1.2em;
-    border: 1px solid var(--accent);
-    border-radius: 999px;
-    background: none;
-    color: var(--accent);
-    cursor: pointer;
-  }
-
-  .load-comments:hover {
-    background: var(--accent);
-    color: var(--bg);
   }
 </style>

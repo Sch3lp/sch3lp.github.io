@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../../../layouts/Base.astro';
 import Comments from '../../../../components/Comments.astro';
+import LegacyComments from '../../../../components/LegacyComments.astro';
 import PostMeta from '../../../../components/PostMeta.astro';
 import { excerpt, formatDate, getPosts, postDate, postParams, postPath, relatedPosts, type Post } from '../../../../posts';
 
@@ -28,7 +29,8 @@ const { Content } = await render(post);
     </div>
   </article>
 
-  <Comments identifier={`${post.id}.md`} url={new URL(postPath(post), Astro.site).href} />
+  <LegacyComments postId={post.id} />
+  <Comments />
 
   {
     related.length > 0 && (

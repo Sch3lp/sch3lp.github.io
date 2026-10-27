@@ -11,8 +11,14 @@ export const site = {
     { name: 'GitHub', url: 'https://github.com/Sch3lp' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/timschraepen' },
   ],
-  // Disqus shortname of the old Jekyll blog; set to null to drop comments.
-  disqusShortname: 'sch3lpsblog' as string | null,
+  // Comments are GitHub Discussions via giscus; see https://giscus.app for the ids.
+  // Comments stay hidden while categoryId is empty.
+  giscus: {
+    repo: 'Sch3lp/sch3lp.github.io',
+    repoId: 'MDEwOlJlcG9zaXRvcnkyMTc2NTI0Mw==',
+    category: 'Comments',
+    categoryId: 'DIC_kwDOAUwce84DJvy1',
+  },
 };
 
 // Display names for tags whose slug doesn't title-case nicely.
