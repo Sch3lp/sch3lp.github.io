@@ -1,0 +1,15 @@
+{
+  "name": "sch3lp-blog",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource-variable/literata": "^5.3.0",
+    "astro": "^7.4.2"
+  }
+}

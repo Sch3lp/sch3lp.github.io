@@ -1,0 +1,44 @@
+---
+import { formatDate, postDate, readingTime, type Post } from '../posts';
+import { tagName, tagSlug } from '../site';
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const date = postDate(post);
+---
+
+<div class="post-meta">
+  <p class="meta">
+    <time datetime={date.toISOString().slice(0, 10)}>{formatDate(date)}</time> · {readingTime(post)} min read
+    {!post.data.published && <strong> · Draft</strong>}
+  </p>
+  {
+    post.data.tags.length > 0 && (
+      <ul class="tag-list">
+        {post.data.tags.map((t: string) => (
+          <li>
+            <a class="tag" href={`/tag/${tagSlug(t)}/`}>
+              {tagName(t)}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</div>
+
+<style>
+  .post-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+  }
+
+  .post-meta p {
+    margin: 0;
+  }
+</style>

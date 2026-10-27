@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { getPosts } from '../posts';
+import { site } from '../site';
+
+const posts = await getPosts();
+---
+
+<Base>
+  <section class="intro">
+    <h1>{site.tagline}</h1>
+    <p>
+      Hi, I'm {site.author.name}. I write about software teams, retrospectives, Event Storming and whatever else
+      I learned along the way.
+    </p>
+  </section>
+  <PostList posts={posts} />
+</Base>
+
+<style>
+  .intro {
+    margin: 1.5rem 0 3.5rem;
+  }
+
+  .intro h1 {
+    margin: 0 0 0.5rem;
+  }
+
+  .intro p {
+    margin: 0;
+    color: var(--muted);
+  }
+</style>

@@ -1,0 +1,92 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import Comments from '../../../../components/Comments.astro';
+import PostMeta from '../../../../components/PostMeta.astro';
+import { excerpt, formatDate, getPosts, postDate, postParams, postPath, relatedPosts, type Post } from '../../../../posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post: Post) => ({
+    params: postParams(post),
+    props: { post, related: relatedPosts(post, posts) },
+  }));
+}
+
+const { post, related } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Base title={post.data.title} description={excerpt(post, 160)}>
+  <article class="post">
+    <header>
+      <h1>{post.data.title}</h1>
+      <PostMeta post={post} />
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+
+  <Comments identifier={`${post.id}.md`} url={new URL(postPath(post), Astro.site).href} />
+
+  {
+    related.length > 0 && (
+      <aside class="related">
+        <h2>Keep reading</h2>
+        <ul>
+          {related.map((p: Post) => (
+            <li>
+              <a href={postPath(p)}>{p.data.title}</a>
+              <span class="meta">{formatDate(postDate(p))}</span>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )
+  }
+</Base>
+
+<style>
+  .post header {
+    margin-bottom: 2.5rem;
+  }
+
+  .post h1 {
+    margin: 1rem 0 0.75rem;
+    font-size: clamp(1.9rem, 5vw, 2.6rem);
+  }
+
+  .prose :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .related {
+    margin-top: 4rem;
+    padding: 1.5rem 1.75rem;
+    background: var(--surface);
+    border-radius: 10px;
+  }
+
+  .related h2 {
+    margin: 0 0 1rem;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .related ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .related li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 1rem;
+  }
+</style>

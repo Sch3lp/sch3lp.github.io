@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getPosts, type Post } from '../../posts';
+import { tagName, tagSlug } from '../../site';
+
+const posts = await getPosts();
+const counts = new Map<string, number>();
+posts.flatMap((p: Post) => p.data.tags).forEach((t: string) => counts.set(t, (counts.get(t) ?? 0) + 1));
+const tags = [...counts].sort(([a], [b]) => tagName(a).localeCompare(tagName(b)));
+---
+
+<Base title="Tags">
+  <h1>Tags</h1>
+  <ul class="tag-list">
+    {
+      tags.map(([tag, count]) => (
+        <li>
+          <a class="tag" href={`/tag/${tagSlug(tag)}/`}>
+            {tagName(tag)} <span class="count">{count}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>
+
+<style>
+  .tag-list {
+    gap: 0.6rem;
+  }
+
+  .tag {
+    font-size: 0.95rem;
+    padding: 0.35em 0.9em;
+  }
+
+  .count {
+    opacity: 0.65;
+    margin-left: 0.2em;
+  }
+</style>

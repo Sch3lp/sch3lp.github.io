@@ -1,0 +1,67 @@
+---
+import { excerpt, postDate, postPath, type Post } from '../posts';
+import PostMeta from './PostMeta.astro';
+
+interface Props {
+  posts: Post[];
+  showExcerpt?: boolean;
+}
+
+const { posts, showExcerpt = true } = Astro.props;
+const byYear = Map.groupBy(posts, (p: Post) => postDate(p).getUTCFullYear());
+---
+
+{
+  [...byYear].map(([year, yearPosts]) => (
+    <section class="year">
+      <h2 class="year-label meta">{year}</h2>
+      {yearPosts.map((post: Post) => (
+        <article>
+          <h3>
+            <a href={postPath(post)}>{post.data.title}</a>
+          </h3>
+          <PostMeta post={post} />
+          {showExcerpt && <p class="excerpt">{excerpt(post)}</p>}
+        </article>
+      ))}
+    </section>
+  ))
+}
+
+<style>
+  .year {
+    display: grid;
+    gap: 2.25rem;
+    margin-bottom: 3rem;
+  }
+
+  .year-label {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+  }
+
+  article h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.35rem;
+  }
+
+  article h3 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  article h3 a:hover {
+    color: var(--accent);
+  }
+
+  .excerpt {
+    margin: 0.6rem 0 0;
+    color: var(--muted);
+    font-size: 1rem;
+  }
+</style>
