@@ -8,6 +8,7 @@ title: About
 Tim is an enthusiastic software crafter with a big heart for his co-workers. With his 20 years of experience, he's gained some knowledge on how to build well-crafted applications and shares this whenever he can.
 
 His love for Kotlin is a natural extension for a person that cried many tears in NullPointerException and has come to adore strong typed languages.
+He organizes the [Belgian Kotlin User Group (BEKUG)](https://www.meetup.com/belgian-kotlin-user-group) meetups and [KTConf](https://ktconf.be), a Belgian Kotlin developer conference.
 
 Outside of work Tim hosts MeetUps for the Belgian Software Crafting & Testing community ([SocratesBE](https://socratesbe.org)), plays board- and videogames, goes on walks with his trusty dog companion and tries to keep his DuoLingo streak going in learning Norwegian.
 
