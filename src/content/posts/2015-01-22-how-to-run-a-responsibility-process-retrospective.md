@@ -1,8 +1,6 @@
 ---
-layout: post
 title: How to run a The Responsibility Process™ Retrospective
 tags: [responsibility-process, retrospectives, how-to]
-published: true
 ---
 
 ## What is The Responsibility Process™?

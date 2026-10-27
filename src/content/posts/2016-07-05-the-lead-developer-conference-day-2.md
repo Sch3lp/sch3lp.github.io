@@ -1,8 +1,6 @@
 ---
-layout: post
 title: The Lead Developer Conference - Day 2
 tags: [experience-report]
-published: true
 ---
 ## The Lead Developer - continued
 The Lead Developer conference, or at least the one I went to, was held on the 23rd and 24th of June 2016, in the Queen Elizabeth II Centre in London, during the _Brexit_ vote.
@@ -125,7 +123,8 @@ Other important, notable things that might trigger it are comparing your worst s
 
 There are ways of combatting it though. And as usual it involves gaining more awareness. For example by asking your colleagues or friends about your strengths. Or by realizing your heroes struggle with this as well, and picturing _the iceberg (illusion) of success_.
 
-[![Just the tip](./2016-07-05-the-lead-developer-conference-day-2/the-iceberg-illusion.jpg)](https://plus.google.com/+SylviaDuckworth/posts/fjVw5ZFs1Cb)
+![The iceberg illusion of success](./2016-07-05-the-lead-developer-conference-day-2/the-iceberg-illusion.jpg)
+_The Iceberg Illusion, by Sylvia Duckworth_
 
 Preventing _Impostor Syndrome_ involves watching out for certain things that you say e.g. _I'm not an expert, but..._. If you repeat that phrase often enough, you'll eventually believe it.
 

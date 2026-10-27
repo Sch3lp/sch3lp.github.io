@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Event Storming for realz
 tags: [event-storming, experience-report]
-published: true
 ---
 
 After last times [Event Storming exercise](/2014/07/12/event-storming-exercise) I was anxious to do it again. 

@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Event Storming Exercise
 tags: [event-storming, experience-report]
-published: true
 ---
 As I'm currently in between projects at [Cegeka](http://www.cegeka.be) and just finished working on an RFP, I got to factor in a day of learning along with other developers last friday.
 And boy oh boy was it worthwile.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Life Balance scale
 tags: [life-balance-scale]
 published: false

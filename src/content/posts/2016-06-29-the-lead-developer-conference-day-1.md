@@ -1,8 +1,6 @@
 ---
-layout: post
 title: The Lead Developer Conference - Day 1
 tags: [experience-report]
-published: true
 ---
 ## The Lead Developer what now?
 The Lead Developer conference, or at least the one I went to, was held on the 23rd and 24th of June 2016, in the Queen Elizabeth II Centre in London, during the _Brexit_ vote.

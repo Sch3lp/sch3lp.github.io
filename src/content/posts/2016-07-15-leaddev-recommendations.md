@@ -1,8 +1,6 @@
 ---
-layout: post
 title: The Lead Developer Conference - Recommendations
 tags: [experience-report]
-published: true
 ---
 I blogged about [Day 1](/2016/06/29/the-lead-developer-conference-day-1) and [Day 2](/2016/07/05/the-lead-developer-conference-day-2) of [The Lead Developer](http://2016.theleaddeveloper.com) conference in London.
 

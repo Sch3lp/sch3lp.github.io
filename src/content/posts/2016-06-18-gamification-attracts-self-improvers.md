@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gamification attracts self improvers
 tags: [theory-crafting]
 published: false

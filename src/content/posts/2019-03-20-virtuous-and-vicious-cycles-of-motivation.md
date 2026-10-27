@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Vicious and Virtuous cycles of Motivation
 tags: [thought-experiment]
-published: true
 ---
 
 ## TL;DR

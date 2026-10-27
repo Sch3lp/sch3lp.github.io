@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Given When Then in Unit Tests
 tags: [experience-report, TDD]
 published: false
